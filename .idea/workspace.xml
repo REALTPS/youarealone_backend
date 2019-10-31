@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3dc22bb0-d7cc-4c65-a6cc-47405fbd38dc" name="Default Changelist" comment="" />
+    <list default="true" id="3dc22bb0-d7cc-4c65-a6cc-47405fbd38dc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.2/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.2/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.2/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.2/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.2/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.2/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.2/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/findhuman/demo/domain/History.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/findhuman/demo/domain/History.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/findhuman/demo/domain/Member$MemberBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/findhuman/demo/domain/Member$MemberBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/findhuman/demo/domain/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/findhuman/demo/domain/Member.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/findhuman/demo/dto/api/HistoryListConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/findhuman/demo/dto/api/HistoryListConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/findhuman/demo/dto/api/MemberListConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/findhuman/demo/dto/api/MemberListConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/findhuman/demo/service/HistoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/findhuman/demo/service/HistoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/findhuman/demo/service/MemberService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/findhuman/demo/service/MemberService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/findhuman/demo/service/MemberServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/findhuman/demo/service/MemberServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/youarealone.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/youarealone.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/findhuman.demo.domain.HistoryRepositoryTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/findhuman.demo.domain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-findhuman.demo.domain.HistoryRepositoryTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/findhuman/demo/domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/findhuman/demo/domain/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/findhuman/demo/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/findhuman/demo/service/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/findhuman/demo/service/MemberServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/findhuman/demo/service/MemberServiceTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +92,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -95,27 +129,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DemoApplication">
-    <configuration name="HistoryRepositoryTest.create" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;findhuman.demo.domain.HistoryRepositoryTest.create&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.MemberServiceTest.getMember">
     <configuration name="HistoryRepositoryTest.findByOrderByIdDesc" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -176,12 +190,32 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MemberServiceTest.deleteMember" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MemberServiceTest.getMember" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;findhuman.demo.service.MemberServiceTest.deleteMember&quot;" />
+        <option name="scriptParameters" value="--tests &quot;findhuman.demo.service.MemberServiceTest.getMember&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MemberServiceTest.getMembers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;findhuman.demo.service.MemberServiceTest.getMembers&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -205,11 +239,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MemberServiceTest.getMember" />
+        <item itemvalue="Gradle.MemberServiceTest.getMembers" />
         <item itemvalue="Gradle.HistoryRepositoryTest.findByOrderByIdDesc" />
         <item itemvalue="Gradle.HistoryServiceTest.getHistorys" />
         <item itemvalue="Gradle.HistoryServiceTest.addNewHistory" />
-        <item itemvalue="Gradle.MemberServiceTest.deleteMember" />
-        <item itemvalue="Gradle.HistoryRepositoryTest.create" />
       </list>
     </recent_temporary>
   </component>
@@ -226,11 +260,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571894432278</updated>
-      <workItem from="1571894439715" duration="67361000" />
+      <workItem from="1571894439715" duration="68022000" />
+      <workItem from="1572421740954" duration="256000" />
+      <workItem from="1572422023779" duration="134000" />
+      <workItem from="1572422189026" duration="92000" />
+      <workItem from="1572422304662" duration="9484000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

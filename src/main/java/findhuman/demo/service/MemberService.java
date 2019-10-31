@@ -58,6 +58,8 @@ public class MemberService {
             if(chkMember){
                 members.remove(h.getMember());
             }
+
+            members.remove(h.getMember());
         });
 
         return memberListConverter.convert(members);

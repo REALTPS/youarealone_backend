@@ -35,6 +35,18 @@ class MemberServiceTest {
 //    public void init(){
 //    }
 
+
+    @Test
+    public void getMember() {
+        Optional<Member> member = memberRepository.findById(5L);
+
+        member.ifPresent(e-> {
+            Assert.assertThat(e.getName(), is("Hugh"));
+        });
+
+        Assert.assertNotNull(member);
+    }
+
     @Test
     public void getMembers(){
         Assert.assertNotNull(memberRepository);
