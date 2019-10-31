@@ -1,7 +1,7 @@
 package findhuman.demo.controller;
 
 import findhuman.demo.model.dto.HistoryRequestDto;
-import findhuman.demo.service.HistoryService;
+import findhuman.demo.service.HistoryServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -11,7 +11,7 @@ import java.util.List;
 public class HistoryController {
 
     @Autowired
-    private HistoryService historyService;
+    private HistoryServiceImpl historyService;
 
     @PostMapping("/history/add")
     public String addNewHistory (@RequestBody HistoryRequestDto history) {

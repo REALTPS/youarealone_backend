@@ -1,7 +1,7 @@
 package findhuman.demo.controller;
 
 import findhuman.demo.repository.HistoryRepository;
-import findhuman.demo.service.HistoryService;
+import findhuman.demo.service.HistoryServiceImpl;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.jupiter.api.Test;
@@ -15,7 +15,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 class HistoryControllerTest {
 
     @Autowired
-    private HistoryService historyService;
+    private HistoryServiceImpl historyService;
 
     @Autowired
     private HistoryRepository historyRepository;

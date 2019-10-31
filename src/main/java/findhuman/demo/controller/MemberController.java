@@ -1,7 +1,7 @@
 package findhuman.demo.controller;
 
 import findhuman.demo.model.dto.MemberRequestDto;
-import findhuman.demo.service.MemberService;
+import findhuman.demo.service.MemberServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -14,7 +14,7 @@ import java.util.List;
 public class MemberController {
 
     @Autowired
-    private MemberService memberService;
+    private MemberServiceImpl memberService;
 
     @GetMapping("/all")
     public List<MemberRequestDto> getMembers() {
