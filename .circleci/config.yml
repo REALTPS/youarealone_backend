@@ -1,24 +1,7 @@
-version: 2.0
-
-jobs:
-    build:
-        docker:
-            - image: circleci/openjdk:9-jdk-sid-node-browsers
-        steps:
-            - checkout
-            - restore_cache:
-                keys:
-                    - gradle-{{ checksum "build.gradle" }}
-            - run: gradle assemble
-            - run: gradle run
-            - run: gradle test
-            - save_cache:
-                paths:
-                    - ~/.gradle
-                key: gradle-{{ checksum "build.gradle" }}
-            - store_artifacts:
-                path: build/distributions
-                destination: distributions
-            - store_artifacts:
-                path: build/libs
-                destination: libs
+version: 2.1
+orbs:
+    hello: circleci/hello-build@0.0.5
+workflows:
+    "Hello Workflow":
+        jobs:
+          - hello/hello-build
