@@ -1,13 +1,9 @@
-version: 2.1
-
-orbs:
-  win: circleci/windows@1.0.0
+version: 2.0
 
 jobs:
-  build:
-    executor: win/vs2019
-    steps:
-      - checkout
+    build:
+        steps:
+            - checkout
             - restore_cache:
                 keys:
                     - gradle-{{ checksum "build.gradle" }}
