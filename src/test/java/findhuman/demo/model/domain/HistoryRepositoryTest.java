@@ -1,5 +1,7 @@
-package findhuman.demo.domain;
+package findhuman.demo.model.domain;
 
+import findhuman.demo.repository.HistoryRepository;
+import findhuman.demo.repository.MemberRepository;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;

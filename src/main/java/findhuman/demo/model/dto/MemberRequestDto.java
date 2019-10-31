@@ -1,10 +1,8 @@
-package findhuman.demo.dto;
+package findhuman.demo.model.dto;
 
-import findhuman.demo.domain.Member;
-import findhuman.demo.domain.enumclass.memberStatus;
+import findhuman.demo.model.domain.Member;
+import findhuman.demo.model.domain.enumclass.memberStatus;
 import lombok.*;
-
-import java.time.LocalDateTime;
 
 @Getter
 @Setter

@@ -1,7 +1,6 @@
-package findhuman.demo.dto;
+package findhuman.demo.model.dto;
 
-import findhuman.demo.domain.History;
-import findhuman.demo.domain.Member;
+import findhuman.demo.model.domain.History;
 import lombok.*;
 
 import java.time.LocalDateTime;

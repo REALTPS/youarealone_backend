@@ -1,7 +1,7 @@
-package findhuman.demo.dto.api;
+package findhuman.demo.model.dto.api;
 
-import findhuman.demo.domain.Member;
-import findhuman.demo.dto.MemberRequestDto;
+import findhuman.demo.model.domain.Member;
+import findhuman.demo.model.dto.MemberRequestDto;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
 

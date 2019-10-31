@@ -1,13 +1,13 @@
 package findhuman.demo.service;
 
-import findhuman.demo.domain.History;
-import findhuman.demo.domain.HistoryRepository;
-import findhuman.demo.domain.Member;
-import findhuman.demo.domain.MemberRepository;
-import findhuman.demo.domain.enumclass.memberStatus;
-import findhuman.demo.dto.api.MemberConverter;
-import findhuman.demo.dto.MemberRequestDto;
-import findhuman.demo.dto.api.MemberListConverter;
+import findhuman.demo.model.domain.History;
+import findhuman.demo.repository.HistoryRepository;
+import findhuman.demo.model.domain.Member;
+import findhuman.demo.repository.MemberRepository;
+import findhuman.demo.model.domain.enumclass.memberStatus;
+import findhuman.demo.model.dto.api.MemberConverter;
+import findhuman.demo.model.dto.MemberRequestDto;
+import findhuman.demo.model.dto.api.MemberListConverter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

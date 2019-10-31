@@ -1,6 +1,6 @@
 package findhuman.demo.controller;
 
-import findhuman.demo.dto.MemberRequestDto;
+import findhuman.demo.model.dto.MemberRequestDto;
 import findhuman.demo.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

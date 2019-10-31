@@ -1,7 +1,6 @@
-package findhuman.demo.domain;
+package findhuman.demo.model.domain;
 
-import findhuman.demo.domain.Member;
-import findhuman.demo.domain.enumclass.memberStatus;
+import findhuman.demo.model.domain.enumclass.memberStatus;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -11,7 +10,6 @@ import java.time.LocalDateTime;
 
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

@@ -1,7 +1,7 @@
-package findhuman.demo.domain;
+package findhuman.demo.repository;
 
 
-import findhuman.demo.domain.History;
+import findhuman.demo.model.domain.History;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

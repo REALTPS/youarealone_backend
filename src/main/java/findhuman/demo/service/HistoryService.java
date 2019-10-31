@@ -1,12 +1,11 @@
 package findhuman.demo.service;
 
-import findhuman.demo.domain.History;
-import findhuman.demo.domain.HistoryRepository;
-import findhuman.demo.domain.Member;
-import findhuman.demo.domain.MemberRepository;
-import findhuman.demo.dto.HistoryRequestDto;
-import findhuman.demo.dto.api.HistoryConverter;
-import findhuman.demo.dto.api.HistoryListConverter;
+import findhuman.demo.model.domain.History;
+import findhuman.demo.repository.HistoryRepository;
+import findhuman.demo.model.domain.Member;
+import findhuman.demo.repository.MemberRepository;
+import findhuman.demo.model.dto.HistoryRequestDto;
+import findhuman.demo.model.dto.api.HistoryListConverter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

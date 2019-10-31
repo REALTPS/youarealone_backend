@@ -1,13 +1,10 @@
-package findhuman.demo.dto.api;
+package findhuman.demo.model.dto.api;
 
-import findhuman.demo.domain.History;
-import findhuman.demo.dto.HistoryRequestDto;
+import findhuman.demo.model.domain.History;
+import findhuman.demo.model.dto.HistoryRequestDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
-
-import java.util.ArrayList;
-import java.util.List;
 
 @Component
 public class HistoryConverter implements Converter<History, HistoryRequestDto> {

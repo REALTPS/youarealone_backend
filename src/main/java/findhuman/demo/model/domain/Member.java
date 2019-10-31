@@ -1,9 +1,8 @@
-package findhuman.demo.domain;
+package findhuman.demo.model.domain;
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
-import findhuman.demo.domain.enumclass.memberStatus;
+import findhuman.demo.model.domain.enumclass.memberStatus;
 import lombok.*;
-import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;

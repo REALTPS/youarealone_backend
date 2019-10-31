@@ -1,4 +1,4 @@
-package findhuman.demo.domain.enumclass;
+package findhuman.demo.model.domain.enumclass;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

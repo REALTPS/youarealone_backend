@@ -1,7 +1,6 @@
 package findhuman.demo.controller;
 
-import findhuman.demo.domain.History;
-import findhuman.demo.dto.HistoryRequestDto;
+import findhuman.demo.model.dto.HistoryRequestDto;
 import findhuman.demo.service.HistoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
