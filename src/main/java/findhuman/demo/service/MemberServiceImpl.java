@@ -78,4 +78,13 @@ public class MemberServiceImpl implements MemberService {
             return true;
         }).orElseGet(() -> false);
     }
+
+    @Override
+    public void updateMemberState(Long id, MemberRequestDto member) {
+        Optional<Member> findMember = memberRepository.findById(id);
+
+        findMember.ifPresent(m -> {
+            m.setStatus(member.getStatus());
+        });
+    }
 }

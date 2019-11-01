@@ -16,7 +16,7 @@ import java.util.Objects;
 @NoArgsConstructor
 @Builder
 @AllArgsConstructor
-//@ToString(exclude = "historyList")
+@ToString(exclude = "historyList")
 public class Member {
 
     @Id
@@ -26,6 +26,7 @@ public class Member {
     @NotNull
     private String name;
 
+    @Enumerated(EnumType.STRING)
     private memberStatus status;
 
     private String createBy;

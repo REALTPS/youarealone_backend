@@ -13,6 +13,7 @@ import java.util.Objects;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
+@ToString
 public class History {
 
     @Id
@@ -31,7 +32,6 @@ public class History {
 
     @JsonBackReference
     @ManyToOne
-//    @JoinColumn(name = "member_id")
     private Member member;
 
     @Override

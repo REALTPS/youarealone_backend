@@ -1,0 +1,29 @@
+#spring.datasource.url=jdbc:mariadb://192.168.0.74:3306/youarealone
+#spring.mars.datasource.driverClassName=org.mariadb.jdbc.Driver
+#spring.datasource.username=root
+#spring.datasource.password=1234
+#
+#spring.main.allow-bean-definition-overriding=true
+#spring.jackson.serialization..fail-on-empty-beans=false
+#spring.jackson.property-naming-strategy=
+
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://192.168.0.74:3306/youarealone
+    username: root
+    password: 1234
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    generate-ddl: true
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    properties.hibernate.format_sql: true
+
+  main:
+    allow-bean-definition-overriding: true
+
+
+

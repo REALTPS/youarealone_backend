@@ -22,6 +22,8 @@ public class HistoryRequestDto {
 
     private String requester;
 
+    private LocalDateTime date;
+
     private MemberRequestDto member;
 
     public History toEntity(){
@@ -30,6 +32,7 @@ public class HistoryRequestDto {
                 .name(name)
                 .company(company)
                 .serial(serial)
+                .requester(requester)
                 .date(LocalDateTime.now())
                 .build();
     }

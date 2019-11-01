@@ -7,10 +7,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-//import findhuman.demo.service.MemberHistoryService;
-
 @RestController
-@RequestMapping(value = "/member" , method = {RequestMethod.GET, RequestMethod.POST, RequestMethod.DELETE})
+@RequestMapping(value = "/member" , method = {RequestMethod.GET, RequestMethod.POST, RequestMethod.DELETE, RequestMethod.PUT})
 public class MemberController {
 
     @Autowired
@@ -41,11 +39,9 @@ public class MemberController {
         }
     }
 
-
-//    @PostMapping("/member/{id}")
-//    public void createMember(@PathVariable String id){
-////        memberService.create();
-//
-//    }
+    @PutMapping("/update/{id}")
+    public void updateMemberStatus(@PathVariable("id") Long id, @RequestBody MemberRequestDto memberRequestDto){
+        memberService.updateMemberState(id, memberRequestDto);
+    }
 
 }

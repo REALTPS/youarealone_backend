@@ -6,7 +6,6 @@ import findhuman.demo.model.domain.Member;
 import findhuman.demo.repository.MemberRepository;
 import findhuman.demo.model.domain.enumclass.memberStatus;
 import findhuman.demo.model.dto.MemberRequestDto;
-import org.graalvm.compiler.replacements.nodes.AssertionNode;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
@@ -28,10 +27,6 @@ class MemberServiceTest {
 
     @Autowired
     private HistoryRepository historyRepository;
-
-//    @Before
-//    public void init(){
-//    }
 
     @Test
     public void getMembers(){

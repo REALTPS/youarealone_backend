@@ -15,4 +15,6 @@ public interface MemberService {
 
     boolean deleteMember(Long id);
 
+    void updateMemberState(Long id, MemberRequestDto member);
+
 }
