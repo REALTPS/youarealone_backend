@@ -1,6 +1,6 @@
 FROM openjdk:8-jdk-alpine as builder
 
-COPY gradlew.
+COPY gradlew .
 COPY gradle gradle
 COPY build.gradle .
 COPY settings.gradle .
