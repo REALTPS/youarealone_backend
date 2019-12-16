@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="demo" external.linked.project.path="C:/findhuman" external.root.project.path="C:/findhuman" external.system.id="GRADLE" external.system.module.group="findHuman" external.system.module.version="0.0.1-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://C:/findhuman">
+      <excludeFolder url="file://C:/findhuman/.gradle" />
+      <excludeFolder url="file://C:/findhuman/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
